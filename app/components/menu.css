@@ -1,0 +1,103 @@
+#container {
+    transition: all 2s ease;
+    -webkit-animation: fade 4s infinite;
+    -moz-animation: fade 4s infinite;
+    -o-animation: fade 4s infinite;
+    animation: fade 4s infinite;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0%;
+}
+
+#container-list {
+    background-color: rgba(0, 0, 0, .6);
+    width: 30%;
+    height: 70%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px #333333;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+}
+
+#playlist {
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 20px/1.5 "Comic Sans MS", Sans-serif, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+  
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+}
+
+li a:hover {
+    font-size: 30px;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+li a:focus-within {
+    outline: -webkit-focus-ring-color auto 0px;
+    background-color: rgba(255, 255, 255, .3);
+
+    text-decoration: none;
+    color: white;
+
+    font-size: 30px;
+  
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+}
+
+li a:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    background-color: rgba(255, 255, 255, .3);
+
+    text-decoration: none;
+    color: white;
+
+    font-size: 30px;
+  
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+}

@@ -1,0 +1,56 @@
+{
+    "video": [
+        {
+            "downloaddirectory": "/Users/jorge.fragoza/Proyectos/Laboratorio/electron/client-electron-test/resources/videos/Higiene",
+            "maindirectory": "/sysx/apache/htdocs/multimedia-manager/api/uploads/Sitio_2/video/",
+            "mainfile": "",
+            "files": [
+                {
+                    "name": "video1.mp4",
+                    "hash": ""
+                },
+                {
+                    "name": "video2.mp4",
+                    "hash": ""
+                },
+                {
+                    "name": "video3.mp4",
+                    "hash": ""
+                },
+                {
+                    "name": "video4.mp4",
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "downloaddirectory": "/Users/jorge.fragoza/Proyectos/Laboratorio/electron/client-electron-test/resources/videos/Seguridad",
+            "maindirectory": "/sysx/apache/htdocs/multimedia-manager/api/uploads/Sitio_2/video/",
+            "mainfile": "",
+            "files": [
+                {
+                    "name": "video4.mp4",
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "image": [
+        {
+            "downloaddirectory": "/Users/jorge.fragoza/Proyectos/Laboratorio/electron/client-electron-test/resources/images/Higiene",
+            "maindirectory": "/sysx/apache/htdocs/multimedia-manager/api/uploads/Sitio_2/image/",
+            "mainfile": "",
+            "files": [
+                {
+                    "name": "bg02.jpg",
+                    "hash": ""
+                },
+                {
+                    "name": "bg03.jpg",
+                    "hash": ""
+                }
+            ]
+        }
+    ],
+    "lista": []
+}

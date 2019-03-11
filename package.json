@@ -1,0 +1,15 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "pruebas de electron js desktop app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jorge.fragoza",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.5",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
